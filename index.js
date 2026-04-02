@@ -1,5 +1,5 @@
 let lengthInFeet = 1.5;
 let pricePerFoot = 2.50;
-let decimal = 1.5 x 2.5;
+let totalPrice = lengthInFeet * pricePerFoot;
 
-document.getelesentbyid("result").innerHTML = decimal;
+document.getElementById("result").innerHTML = totalPrice;
